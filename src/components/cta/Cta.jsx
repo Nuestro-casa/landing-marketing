@@ -1,7 +1,7 @@
 import React from "react";
 import "./Cta.scss";
 import ctaBg from "../../assets/cta-bg.png";
-import ctaDots from "../../assets/cta-dots.svg";
+
 import whatsapp from "../../assets/whatsapp.svg";
 function Cta() {
   return (
