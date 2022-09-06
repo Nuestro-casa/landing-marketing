@@ -1,0 +1,66 @@
+.last-cta-wrapper {
+  margin: 24px;
+  background: #102740;
+  padding: 16px 23px;
+  display: flex;
+  gap: 18px;
+  flex-direction: column;
+  p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+
+    letter-spacing: 0.2px;
+
+    color: #ffffff;
+  }
+  .btn {
+    padding: 10px 30px 10px 30px;
+    gap: 10px;
+    height: 44px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .main {
+    background: #ffede1;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    text-align: center;
+    width: 100%;
+
+    color: #f08a49;
+  }
+  .whatsapp {
+    background: #3fc351;
+    border-radius: 5px;
+
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    text-align: center;
+
+    color: #ffffff;
+    text-decoration: none;
+    span {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0.5em;
+    }
+  }
+}

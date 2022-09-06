@@ -1,0 +1,67 @@
+.proceso-title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height, or 160% */
+
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #102740;
+  width: 100%;
+  padding: 24px 24px;
+}
+.card {
+  margin: 24px 24px;
+  min-height: 73px;
+
+  background: #ffffff;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20.5px 16px;
+  gap: 16px;
+  .number {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    width: 15px;
+    color: #102740;
+  }
+  .step {
+    width: 111px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    letter-spacing: -1px;
+
+    color: #24355a;
+  }
+  .desc {
+    width: 184px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.3125px;
+
+    color: #102740;
+  }
+}
+
+.divider {
+  height: 1px;
+  width: calc(100% - 48px);
+  margin: 24px 24px;
+  background: #d9d9d9;
+}
