@@ -3,6 +3,9 @@
   width: 100vw;
   height: 58px;
   position: relative;
+  max-width: 436px;
+  margin-left: auto;
+  margin-right: auto;
   img {
     position: absolute;
     left: 24px;
@@ -43,6 +46,9 @@
   background: #f08a49;
   margin: 24px 24px;
   padding: 10px;
+  max-width: 436px;
+  margin-left: auto;
+  margin-right: auto;
   .stat {
     display: flex;
     flex-direction: column;
@@ -82,6 +88,9 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
+  max-width: 436px;
+  margin-left: auto;
+  margin-right: auto;
   /* or 130% */
 
   text-align: center;
@@ -94,6 +103,9 @@
   align-items: center;
   width: 100%;
   padding: 24px;
+  max-width: 436px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .video-cta {
   height: 66px;
@@ -107,6 +119,9 @@
   font-size: 18px;
   line-height: 21px;
   text-align: center;
-
+  max-width: 436px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   color: #ffffff;
 }

@@ -3,6 +3,9 @@
   width: 100vw;
   height: 58px;
   position: relative;
+  max-width: 436px;
+  margin-left: auto;
+  margin-right: auto;
   img {
     position: absolute;
     left: 24px;
@@ -41,6 +44,9 @@
   margin-top: 24px;
   padding: 0 24px;
   min-height: 186px;
+  max-width: 436px;
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
   position: relative;
   overflow: hidden;

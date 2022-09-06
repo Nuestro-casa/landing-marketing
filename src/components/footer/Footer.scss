@@ -4,6 +4,9 @@
   font-weight: 400;
   font-size: 10px;
   line-height: 16px;
+  max-width: 436px;
+  margin-left: auto;
+  margin-right: auto;
   /* or 160% */
 
   color: #0a213c;
@@ -14,6 +17,9 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 436px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 24px;
   .footer-data .footer-item {
     display: flex;
